@@ -1,0 +1,80 @@
+#  ____  ____  ____  ____  _____ ____  ____  ____  ____  ____
+# / ___\/   _\/  _ \/  __\/  __//  _ \/  _ \/  _ \/  __\/  _ \
+# |    \|  /  | / \||  \/||  \  | | //| / \|| / \||  \/|| | \|
+# \___ ||  \_ | \_/||    /|  /_ | |_\\| \_/|| |-|||    /| |_/|
+# \____/\____/\____/\_/\_\\____\\____/\____/\_/ \|\_/\_\\____/
+#
+# Scoreboard-r by Rien Bijl
+# rep: github : RienBijl/Scoreboard-revision
+# v: R4 1.1 RELEASE
+
+# Do not edit! The plugin uses this to determine if the configuration is suitable
+config_version: 1
+
+settings:
+  # The driver is the Scoreboard implementation used to display the user
+  # Old drivers will from now on remain supported so that switching back to
+  # an older (perhaps more stable) version is easy.
+  driver: SCOREBOARD_DRIVER_V1
+  # Should we check updates? Caution! Disabling this is not recommended
+  # you might miss awesome updates *wink*
+  check-updates: false
+
+# In what worlds should we disable scoreboard?
+disabled-worlds:
+  - 'non_existant_world'
+
+board:
+  title:
+    interval: 3
+    lines:
+      - '&b&lMiniMC'
+  rows:
+    1:
+      interval: 60000
+      lines:
+        - '&7%localtime_time_dd.MM.yyyy% &8%thewalls_servername%'
+    2:
+      interval: 80
+      lines:
+        - ' '
+    3:
+      interval: 60000
+      lines:
+        - '&fName:&7 %player_name%'
+    4:
+      interval: 5000
+      lines:
+        - '&fRank: %luckperms_prefix%'
+    5:
+      interval: 80
+      lines:
+        - ' '
+    6:
+      interval: 60000
+      lines:
+        - '&fXP: &7%thewalls_xp%'
+    7:
+      interval: 60000
+      lines:
+        - '&fKills: &7%thewalls_kills%'
+    8:
+      interval: 60000
+      lines:
+        - '&fDeaths: &7%thewalls_deaths%'
+    9:
+      interval: 60000
+      lines:
+        - '&fWins: &7%thewalls_wins%'
+    10:
+      interval: 60000
+      lines:
+        - '&fLoses: &7%thewalls_loses%'
+    11:
+      interval: 80
+      lines:
+        - ' '
+    12:
+      interval: 80
+      lines:
+        - '&bwww.minimc.nl'

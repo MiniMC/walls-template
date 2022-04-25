@@ -1,0 +1,12 @@
+Version: '2.18a+'
+Template:
+  Enabled: true
+  Icon: 'purpur_block'
+  Build:
+    Server-Type: 'Spigot'
+    Use-Cache: false
+    Require-Version: true
+    Can-Update: true
+    Executable: 'bash build.sh'
+  Settings:
+    Executable: 'java -Xmx3G -Xms3G -Dterminal.jline=false -jar Purpur.jar nogui'

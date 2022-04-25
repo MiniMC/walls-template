@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 83.128.130.178
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1649619210928
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1649619200384
+  login: 1649619206806
+money: '0'
+logoutlocation:
+  world: c81a7c4b-5dd9-453c-9238-a87f0d5f9094
+  world-name: world
+  x: 243.54525139096478
+  y: 149.0
+  z: -792.5114358066428
+  yaw: -90.544921875
+  pitch: 7.227073669433594
+last-account-name: GSBRT
+lastlocation:
+  world: c81a7c4b-5dd9-453c-9238-a87f0d5f9094
+  world-name: world
+  x: 284.69999998807907
+  y: 115.20000004768372
+  z: -855.3000000119209
+  yaw: -45.41446304321289
+  pitch: 14.488554000854492

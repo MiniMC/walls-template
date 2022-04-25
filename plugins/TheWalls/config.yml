@@ -1,0 +1,17 @@
+# ----------------------------------------------
+#      CONFIGURATION FILE FOR THE WALLS PVP 
+# ----------------------------------------------
+
+# Debug mode? T/F
+debug: true
+
+# Database
+host: een.minimc.nl
+port: 3306
+database: players
+username: remote
+password: AJHSDGajkygdyiwugauiygsdjyGAJSYGDJYAGsdjy
+
+# Proxy
+proxyhost: 5.255.77.109:5122
+proxykey: g5gYTaZC9FwTkghtsBSrR4kWEng5WXFm4JygSvtMbeFsbdD7PcwV

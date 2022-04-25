@@ -1,0 +1,94 @@
+arena-data:
+- ==: com.github.pocketkid2.thewalls.Arena
+  arena-region:
+    ==: com.github.pocketkid2.thewalls.TheWallsRegion
+    world: world
+    min:
+      ==: BlockVector
+      x: 278.0
+      y: 33.0
+      z: -862.0
+    max:
+      ==: BlockVector
+      x: 426.0
+      y: 138.0
+      z: -716.0
+  name: original
+  spawn-locations:
+  - ==: org.bukkit.Location
+    world: world
+    x: 284.4682806054635
+    y: 115.0
+    z: -855.5769892720324
+    pitch: 11.578854
+    yaw: -43.959625
+  - ==: org.bukkit.Location
+    world: world
+    x: 410.4756394176444
+    y: 115.0
+    z: -855.6999999880791
+    pitch: 7.5428224
+    yaw: 39.75935
+  - ==: org.bukkit.Location
+    world: world
+    x: 410.33876370693014
+    y: 115.0
+    z: -729.6001345537784
+    pitch: 41.75525
+    yaw: 120.005035
+  - ==: org.bukkit.Location
+    world: world
+    x: 284.69860228574237
+    y: 115.0
+    z: -729.6999999880791
+    pitch: 7.636594
+    yaw: -132.38855
+  join-sign:
+    ==: org.bukkit.Location
+    world: world
+    x: 251.0
+    y: 150.0
+    z: -791.0
+    pitch: 0.0
+    yaw: 0.0
+  wall-regions:
+  - ==: com.github.pocketkid2.thewalls.TheWallsRegion
+    world: world
+    min:
+      ==: BlockVector
+      x: 347.0
+      y: 112.0
+      z: -855.0
+    max:
+      ==: BlockVector
+      x: 347.0
+      y: 264.0
+      z: -731.0
+  - ==: com.github.pocketkid2.thewalls.TheWallsRegion
+    world: world
+    min:
+      ==: BlockVector
+      x: 285.0
+      y: 112.0
+      z: -793.0
+    max:
+      ==: BlockVector
+      x: 409.0
+      y: 264.0
+      z: -793.0
+  player-sign:
+    ==: org.bukkit.Location
+    world: world
+    x: 251.0
+    y: 150.0
+    z: -793.0
+    pitch: 0.0
+    yaw: 0.0
+lobby-spawn-location:
+  ==: org.bukkit.Location
+  world: world
+  x: 243.54525139096478
+  y: 149.0
+  z: -792.5114358066428
+  pitch: 7.2270737
+  yaw: -90.54492

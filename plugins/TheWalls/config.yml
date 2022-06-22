@@ -6,12 +6,12 @@
 debug: true
 
 # Database
-host: een.minimc.nl
+host: 127.0.0.1
 port: 3306
 database: players
-username: remote
-password: AJHSDGajkygdyiwugauiygsdjyGAJSYGDJYAGsdjy
+username: username
+password: password
 
 # Proxy
-proxyhost: 5.255.77.109:5122
-proxykey: g5gYTaZC9FwTkghtsBSrR4kWEng5WXFm4JygSvtMbeFsbdD7PcwV
+proxyhost: 127.0.0.1
+proxykey: token
